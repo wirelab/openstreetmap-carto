@@ -38,10 +38,11 @@ _parts:
 Stylesheet:
   - style.mss
   - rr/roads.mss
-  #- fonts.mss
-  #- shapefiles.mss
-  #- landcover.mss
-  #- water.mss
+  - fonts.mss
+  - shapefiles.mss
+  - landcover.mss
+  - water.mss
+  
   #- water-features.mss
   #- road-colors-generated.mss
   #- roads.mss
