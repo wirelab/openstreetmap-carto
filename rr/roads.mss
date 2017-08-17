@@ -1,6 +1,8 @@
-#roads {
-  casing/line-width: 6;
-  casing/line-color: #144950;
+#roads-casings {
+  line-width: 6;
+  line-color: #144950;
+}
+#roads-fill {
   line-width: 4;
-  line-color: #071e20;
+  line-color: #071e20;  
 }
