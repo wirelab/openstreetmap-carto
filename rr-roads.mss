@@ -1,12 +1,8 @@
-#roads-casings {
-  ::casing {
-    line-width: 6;
-    line-color: #d00;
-  }
+#roads-casing[zoom >= 16] {
+  line-width: 20;
+  line-color: #1D5760;
 }
-#roads-fill {
-  ::fill {
-    line-width: 4;
-    line-color: #071e20;
-  }
+#roads-fill[zoom >= 16] {
+  line-width: 16;
+  line-color: #091E22;
 }
