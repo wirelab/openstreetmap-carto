@@ -1,5 +1,5 @@
-@building-fill: #d9d0c9; //Lch(84, 5, 70)
-@building-line: darken(@building-fill, 15%);
+@building-fill: #203b41; //Lch(84, 5, 70)
+@building-line: #0b1b1d; //darken(@building-fill, 15%);
 @building-low-zoom: darken(@building-fill, 4%);
 
 @building-major-fill: darken(@building-fill, 20%);
@@ -13,7 +13,7 @@
     [zoom >= 15] {
       line-color: @building-line;
       polygon-fill: @building-fill;
-      line-width: .75;
+      line-width: 1.75;
       line-clip: false;
     }
   }
@@ -27,7 +27,7 @@
       polygon-fill: @building-major-fill;
       polygon-clip: false;
       [zoom >= 15] {
-        line-width: .75;
+        line-width: 1.75;
         line-clip: false;
         line-color: @building-major-line;
       }

@@ -1,7 +1,7 @@
 /* For the main linear features, such as roads and railways. */
 
 @tertiary-fill: #ffffff;
-@residential-fill: #ffffff;
+@residential-fill: #092022;
 @service-fill: @residential-fill;
 @living-street-fill: #ededed;
 @pedestrian-fill: #dddde8;
@@ -26,7 +26,7 @@
 
 @default-casing: white;
 @tertiary-casing: #8f8f8f;
-@residential-casing: #bbb;
+@residential-casing: #144950;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
@@ -564,6 +564,7 @@
       }
     }
 
+/*
     [feature = 'highway_steps'] {
       .bridges-casing {
         [zoom >= 14][access != 'no'],
@@ -584,6 +585,7 @@
         }
       }
     }
+    */
 
     [feature = 'highway_bridleway'],
     [feature = 'highway_path'][horse = 'designated'] {
@@ -891,6 +893,7 @@
       }
     }
 
+/*
     [feature = 'highway_steps'] {
       .bridges-casing {
         [zoom >= 14][access != 'no'],
@@ -912,6 +915,7 @@
         }
       }
     }
+    */
 
     [feature = 'highway_track'] {
       /* We don't set opacity here, so it's 1.0. Aside from that, it's basically a copy of roads-fill::background in the track part of ::fill */
@@ -1545,6 +1549,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       }
     }
 
+/*
     [feature = 'highway_steps'] {
       [zoom >= 13][access != 'no'],
       [zoom >= 15] {
@@ -1562,6 +1567,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         [zoom >= 15] { line/line-width:  @steps-width-z15; }
       }
     }
+    */
 
     [feature = 'highway_bridleway'],
     [feature = 'highway_path'][horse = 'designated'] {
@@ -1586,6 +1592,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
       }
     }
 
+/*
     [feature = 'highway_footway'],
     [feature = 'highway_path'][bicycle != 'designated'][horse != 'designated'] {
       [zoom >= 13][access != 'no'],
@@ -1666,6 +1673,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         }
       }
     }
+    */
 
     [feature = 'highway_cycleway'],
     [feature = 'highway_path'][bicycle = 'designated'] {
@@ -2766,7 +2774,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   }
 }
 
-#roads-text-name {
+#roads-text-name2 {
   [highway = 'motorway'],
   [highway = 'trunk'],
   [highway = 'primary'],
@@ -2946,7 +2954,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   }
 }
 
-#roads-area-text-name {
+#roads-area-text-name2 {
   [way_pixels > 3000],
   [zoom >= 17] {
     text-name: "[name]";
@@ -3008,6 +3016,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
   }
 }
 
+/*
 .directions::directions {
   [zoom >= 16] {
     // intentionally omitting highway_platform, highway_construction
@@ -3106,3 +3115,4 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     }
   }
 }
+*/

@@ -786,4 +786,4 @@
     text-vertical-alignment: middle;
     text-spacing: 400;
   }
-}
+} 

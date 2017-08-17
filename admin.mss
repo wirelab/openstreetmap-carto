@@ -165,6 +165,7 @@ overlapping borders correctly.
   comp-op: darken;
 }
 
+/*
 #admin-text[zoom >= 16] {
   text-name: "[name]";
   text-face-name: @book-fonts;
@@ -188,6 +189,7 @@ overlapping borders correctly.
   text-vertical-alignment: middle;
   text-dy: -10;
 }
+*/
 
 #nature-reserve-boundaries {
   [way_pixels > 100][zoom >= 7] {
