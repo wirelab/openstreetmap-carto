@@ -55,6 +55,7 @@
   }
 }
 
+/*
 #water-lines-casing {
   [waterway = 'stream'],
   [waterway = 'ditch'],
@@ -76,6 +77,7 @@
     }
   }
 }
+*/
 
 #water-lines-low-zoom {
   [waterway = 'river'][zoom >= 8][zoom < 12] {
