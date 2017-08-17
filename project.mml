@@ -37,22 +37,22 @@ _parts:
 
 Stylesheet:
   - style.mss
-  - fonts.mss
-  - shapefiles.mss
-  - landcover.mss
-  - water.mss
-  - water-features.mss
-  - road-colors-generated.mss
-  - roads.mss
-  - power.mss
-  - placenames.mss
-  - buildings.mss
-  - stations.mss
-  - amenity-points.mss
-  - ferry-routes.mss
-  - aerialways.mss
-  - admin.mss
-  - addressing.mss
+  #- fonts.mss
+  #- shapefiles.mss
+  #- landcover.mss
+  #- water.mss
+  #- water-features.mss
+  #- road-colors-generated.mss
+  #- roads.mss
+  #- power.mss
+  #- placenames.mss
+  #- buildings.mss
+  #- stations.mss
+  #- amenity-points.mss
+  #- ferry-routes.mss
+  #- aerialways.mss
+  #- admin.mss
+  #- addressing.mss
 Layer:
   - id: world
     geometry: polygon
