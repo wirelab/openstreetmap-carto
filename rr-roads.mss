@@ -227,13 +227,13 @@
   [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
     line-clip: false;
-    line-color: darken(#0A2124, 5%);
+    line-color: darken(#0A2124, 10%);
     line-width: 1;
   }
 }
 #highway-area-fill {
   [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
-    polygon-fill: #0A2124;
+    polygon-fill: darken(#0A2124, 5%);
   }
 }
