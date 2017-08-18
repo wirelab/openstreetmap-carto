@@ -1,6 +1,7 @@
 #roads-casing[zoom >= 14] {
   line-width: 20;
   line-color: #1D5760;
+  line-join: round;
 
   [feature = 'railway_preserved'] {
     line-width: 0;
@@ -43,9 +44,15 @@
   line-width: 16;
   //line-color: #091E22;
   line-color: #d00;
+  line-join: round;
 
   [feature = 'railway_preserved'] {
     line-width: 4;
+  }
+  [feature = 'railway_rail'],
+  [feature = 'railway_preserved'],
+  [feature = 'railway_monorail'] {
+    line-color: white;
   }
 
   [feature = 'highway_construction'] {
