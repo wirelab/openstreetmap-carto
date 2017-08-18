@@ -28,6 +28,7 @@
   [feature = 'highway_service'] {
   }
   [feature = 'highway_pedestrian'] {
+    line-width: 8;
   }
   [feature = 'highway_raceway'] {
   }
@@ -63,6 +64,7 @@
   [feature = 'highway_service'] {
   }
   [feature = 'highway_pedestrian'] {
+    line-width: 4;
   }
   [feature = 'highway_raceway'] {
   }
