@@ -4,6 +4,7 @@
   ::casing {
     line-width: 20;
     line-color: #1D5760;
+    line-clip: false;
     line-join: round;
 
     [feature = 'railway_rail'],
@@ -66,6 +67,7 @@
     line-width: 16;
     //line-color: #091E22;
     line-color: #d00;
+    line-clip: false;
     line-join: round;
 
     [feature = 'railway_rail'],
