@@ -10,7 +10,8 @@
     line-opacity: .2;
   }
 
-  [feature = 'landuse_grass'] {
+  [feature = 'landuse_grass'],
+  [feature = 'landuse_meadow'] {
     polygon-fill: #152D29;
     line-width: 1;
     line-color: darken(#152D29, 5%);
