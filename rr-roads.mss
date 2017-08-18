@@ -121,7 +121,7 @@
     }
 
     [features = 'aeroway_runway'] {
-      line-color: #091E22
+      line-color: #091E22;
       line-width: 20;
     }
 
