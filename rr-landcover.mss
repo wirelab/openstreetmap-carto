@@ -10,7 +10,7 @@
     line-opacity: .2;
   }
 
-  [feature = 'natural_scrub']
+  [feature = 'natural_scrub'],
   [feature = 'natural_wood'],
   [feature = 'landuse_forest'] {
     polygon-fill: #112421;
