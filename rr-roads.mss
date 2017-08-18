@@ -5,6 +5,7 @@
     line-width: 20;
     line-color: #1D5760;
     line-clip: false;
+    line-cap: round;
     line-join: round;
 
     [feature = 'railway_rail'],
@@ -21,11 +22,9 @@
 
     [feature = 'aeroway_runway'] {
       line-width: 24;
-      line-cap: round;
     }
     [feature = 'aeroway_taxiway'] {
       line-width: 20;
-      line-cap: round;
     }
 
     [feature = 'highway_construction'] {
@@ -45,14 +44,12 @@
     }
     [feature = 'highway_residential'] {
       line-width: 9;
-      line-cap: round;
     }
     [feature = 'highway_unclassified'] {
       line-width: 9;
     }
     [feature = 'highway_living_street'] {
       line-width: 9;
-      line-cap: round;
     }
     [feature = 'highway_road'] {
     }
@@ -69,7 +66,6 @@
     [feature = 'highway_track'],
     [feature = 'highway_bridleway'] {
       line-width: 5;
-      line-cap: round;
     }
     [feature = 'highway_raceway'] {
     }
@@ -98,6 +94,7 @@
     //line-color: #091E22;
     line-color: #d00;
     line-clip: false;
+    line-cap: round;
     line-join: round;
 
     [feature = 'railway_rail'],
@@ -133,12 +130,10 @@
     [feature = 'aeroway_runway'] {
       line-color: #091E22;
       line-width: 20;
-      line-cap: round;
     }
     [feature = 'aeroway_taxiway'] {
       line-color: #091E22;
       line-width: 16;
-      line-cap: round;
     }
 
     [feature = 'highway_construction'] {
@@ -165,8 +160,7 @@
     [feature = 'highway_residential'] {
       line-color: #091E22;
       line-width: 6;
-      line-cap: round;
-      }
+    }
     [feature = 'highway_unclassified'] {
       line-color: #091E22;
       line-width: 6;
@@ -174,7 +168,6 @@
     [feature = 'highway_living_street'] {
       line-color: #091E22;
       line-width: 6;
-      line-cap: round;
     }
     [feature = 'highway_road'] {
       line-color: #091E22;
@@ -206,7 +199,6 @@
     [feature = 'highway_bridleway'] {
       line-color: #091E22;
       line-width: 3;
-      line-cap: round;
     }
     [feature = 'highway_raceway'] {
       line-color: #091E22;
