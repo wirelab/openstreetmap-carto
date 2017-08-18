@@ -38,6 +38,7 @@
     line-width: 7;
   }
   [feature = 'highway_steps'],
+  [feature = 'highway_cycleway'],
   [feature = 'highway_footway'] {
     line-width: 6;
   }
@@ -118,6 +119,7 @@
       line-dasharray: 2, 2;
     }
   }
+  [feature = 'highway_cycleway'],
   [feature = 'highway_footway'] {
     line-color: #091E22;
     line-width: 4;
