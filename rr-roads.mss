@@ -50,8 +50,15 @@
   [feature = 'railway_preserved'],
   [feature = 'railway_disused'],
   [feature = 'railway_monorail'] {
-    line-width: 4;
-    line-color: #0d0;
+    ::line {
+      line-width: 4;
+      line-color: #00d;
+    }
+    ::dash {
+      line-color: #d0d;
+      line-width: 2;
+      line-dasharray: 6, 6;
+    }
   }
 
   [feature = 'highway_construction'] {
