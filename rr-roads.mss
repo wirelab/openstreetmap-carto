@@ -4,6 +4,10 @@
   line-clip: false;
   line-cap: round;
   line-join: round;
+
+  [waterway = "drain"] {
+    line-width: 2;
+  }
 }
 
 .roads-casing[zoom >= 14],
