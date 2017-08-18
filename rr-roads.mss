@@ -2,6 +2,10 @@
   line-width: 20;
   line-color: #1D5760;
 
+  [feature = 'railway_preserved'] {
+    line-width: 0;
+  }
+
   [feature = 'highway_construction'] {
   }
   [feature = 'highway_motorway'] {
@@ -33,10 +37,15 @@
   [feature = 'highway_raceway'] {
   }
   [feature = 'highway_platform'] {
-  }}
+  }
+}
 #roads-fill[zoom >= 14] {
   line-width: 16;
   line-color: #091E22;
+
+  [feature = 'railway_preserved'] {
+    line-width: 4;
+  }
 
   [feature = 'highway_construction'] {
     line-color: #d00;
