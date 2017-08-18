@@ -5,7 +5,8 @@
   line-cap: round;
   line-join: round;
 
-  [waterway = "drain"] {
+  [waterway = "drain"],
+  [waterway = "ditch"] {
     line-width: 2;
   }
 }
