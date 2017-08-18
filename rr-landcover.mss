@@ -19,9 +19,9 @@
   }
 
   [feature = 'leisure_playground'] {
-    polygon-fill: #262621;
+    polygon-fill: #1f1f1d;
     line-width: 1;
-    line-color: darken(#262621, 5%);    
+    line-color: darken(#1f1f1d, 5%);    
   }
 
   [feature = 'natural_grassland'],
@@ -35,6 +35,7 @@
     line-width: 1;
     line-color: darken(#152D29, 5%);
   }
-  [feature = 'landuse_cemetery'] {
+  [feature = 'landuse_cemetery'],
+  [feature = 'amenity_grave_yard'] {
   }
 }
