@@ -10,10 +10,17 @@
     line-opacity: .2;
   }
 
+  [feature = 'natural_grassland'],
   [feature = 'landuse_grass'],
-  [feature = 'landuse_meadow'] {
+  [feature = 'landuse_meadow'],
+  [feature = 'landuse_recreation_ground'],
+  [feature = 'landuse_village_green'],
+  [feature = 'leasure_common'],
+  [feature = 'leasure_garden'] {
     polygon-fill: #152D29;
     line-width: 1;
     line-color: darken(#152D29, 5%);
+  }
+  [feature = 'landuse_cemetery'] {
   }
 }
