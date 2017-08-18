@@ -226,23 +226,15 @@
 #highway-area-casing {
   [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
-    [zoom >= 16] {
-      line-color: grey;
-      line-width: 2;
-      line-cap: round;
-      line-join: round;
-    }
+    line-color: #d0d;
+    line-width: 2;
+    line-cap: round;
+    line-join: round;
   }
 }
 #highway-area-fill {
+  [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
-    line-join: round;
-    line-width: 6;
-    line-color: grey;
-    line-cap: round;
-    b/line-width: 4;
-    b/line-color: #bbbbbb;
-    b/line-cap: round;
-    b/line-join: round;
+    polygon-fill: #00d;
   }
 }
