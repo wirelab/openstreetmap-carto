@@ -43,10 +43,12 @@
     [feature = 'highway_tertiary'] {
       line-width: 11;
     }
-    [feature = 'highway_residential'],
-    [feature = 'highway_unclassified'] {
+    [feature = 'highway_residential'] {
       line-width: 9;
       line-cap: round;
+    }
+    [feature = 'highway_unclassified'] {
+      line-width: 9;
     }
     [feature = 'highway_living_street'] {
       line-width: 9;
@@ -162,11 +164,14 @@
       line-color: #091E22;
       line-width: 8;
     }
-    [feature = 'highway_residential'],
-    [feature = 'highway_unclassified'] {
+    [feature = 'highway_residential'] {
       line-color: #091E22;
       line-width: 6;
       line-cap: round;
+      }
+    [feature = 'highway_unclassified'] {
+      line-color: #091E22;
+      line-width: 6;
     }
     [feature = 'highway_living_street'] {
       line-color: #091E22;
