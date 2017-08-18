@@ -41,54 +41,55 @@
 }
 #roads-fill[zoom >= 14] {
   line-width: 16;
-  line-color: #091E22;
+  //line-color: #091E22;
+  line-color: #d00;
 
   [feature = 'railway_preserved'] {
     line-width: 4;
   }
 
   [feature = 'highway_construction'] {
-    line-color: #d00;
+    line-color: #091E22;
   }
   [feature = 'highway_motorway'] {
-    line-color: #0d0;
+    line-color: #091E22;
   }
   [feature = 'highway_trunk'] {
-    line-color: #00d;
+    line-color: #091E22;
   }
   [feature = 'highway_primary'] {
+    line-color: #091E22;
     line-width: 12;
-    line-color: #dd0;
   }
   [feature = 'highway_secondary'] {
+    line-color: #091E22;
     line-width: 12;
-    line-color: #d0d;
   }
   [feature = 'highway_tertiary'] {
+    line-color: #091E22;
     line-width: 8;
-    line-color: #0dd;
   }
   [feature = 'highway_residential'],
   [feature = 'highway_unclassified'] {
+    line-color: #091E22;
     line-width: 6;
-    line-color: #000;
   }
   [feature = 'highway_living_street'] {
+    line-color: #091E22;
     line-width: 6;
-    line-color: #ccc;
   }
   [feature = 'highway_road'] {
-    line-color: #999;
+    line-color: #091E22;
   }
   [feature = 'highway_service'],
   [feature = 'highway_pedestrian'] {
+    line-color: #091E22;
     line-width: 4;
-    line-color: #fff;
   }
   [feature = 'highway_raceway'] {
-    line-color: #666;
+    line-color: #091E22;
   }
   [feature = 'highway_platform'] {
-    line-color: #900;
+    line-color: #091E22;
   }
 }
