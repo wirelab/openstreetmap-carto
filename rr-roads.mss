@@ -57,6 +57,18 @@
     }
     [feature = 'highway_platform'] {
     }
+    [feature = 'railway_platform'] {
+      line-width: 0;
+      ::line {
+        line-color: #091E22;
+        line-width: 15;
+      }
+      ::dash {
+        line-color: #1D5760;
+        line-width: 15;
+        line-dasharray: 5, 5;
+      }
+    }
   }
 }
 
@@ -154,6 +166,18 @@
     }
     [feature = 'highway_platform'] {
       line-color: #091E22;
+    }
+    [feature = 'railway_platform'] {
+      line-width: 0;
+      ::line {
+        line-color: #1D5760;
+        line-width: 5;
+      }
+      ::dash {
+        line-color: #091E22;
+        line-width: 5;
+        line-dasharray: 5, 5;
+      }
     }
   }
 }
