@@ -16,6 +16,9 @@
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 7;
     }
+    [feature = 'railway_narrow_gauge'] {
+      line-width: 5.5;
+    }
     [feature = 'railway_miniature'] {
       line-width: 4;
     }
@@ -114,6 +117,18 @@
         line-color: #1D5760;
         line-width: 4;
         line-dasharray: 6, 6;
+      }
+    }
+    [feature = 'railway_narrow_gauge'] {
+      line-width: 0;
+      ::line {
+        line-color: #000;//#091E22;
+        line-width: 4;
+      }
+      ::dash {
+        line-color: #1D5760;
+        line-width: 3;
+        line-dasharray: 4, 4;
       }
     }
     [feature = 'railway_miniature'] {
