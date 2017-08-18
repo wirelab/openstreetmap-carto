@@ -194,7 +194,7 @@
     [feature = 'highway_cycleway'],
     [feature = 'highway_footway'] {
       line-color: #1D5760;
-      line-width: 4;
+      line-width: 3;
     }
     [feature = 'highway_track'],
     [feature = 'highway_path'],
