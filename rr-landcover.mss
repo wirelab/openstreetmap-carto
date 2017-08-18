@@ -28,6 +28,7 @@
     line-opacity: .2;
   }
 
+  [feature = 'natural_beach'],
   [feature = 'leisure_playground'],
   [feature = 'leisure_pitch'] {
     polygon-fill: #1f1f1d;
