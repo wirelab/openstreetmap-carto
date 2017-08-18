@@ -54,12 +54,12 @@
   [feature = 'railway_monorail'] {
     line-width: 0;
     ::line {
-      line-width: 4;
-      line-color: #1D5760;
+      line-color: #091E22;
+      line-width: 6;
     }
     ::dash {
-      line-color: #091E22;
-      line-width: 2;
+      line-color: #1D5760;
+      line-width: 4;
       line-dasharray: 6, 6;
     }
   }
