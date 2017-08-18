@@ -8,6 +8,9 @@
     line-width: 1;
     line-color: #0dd;//#000;
     line-opacity: .75;
-    polygon-comp-op: src;
+  }
+
+  [feature = 'landuse_grass'] {
+    polygon-fill: #152D29;
   }
 }
