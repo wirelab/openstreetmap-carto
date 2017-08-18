@@ -20,7 +20,10 @@
     }
 
     [feature = 'aeroway_runway'] {
-      line-width: 24px;
+      line-width: 24;
+    }
+    [feature = 'aeroway_taxiway'] {
+      line-width: 20;
     }
 
     [feature = 'highway_construction'] {
@@ -123,6 +126,10 @@
     [feature = 'aeroway_runway'] {
       line-color: #091E22;
       line-width: 20;
+    }
+    [feature = 'aeroway_taxiway'] {
+      line-color: #091E22;
+      line-width: 16;
     }
 
     [feature = 'highway_construction'] {
