@@ -60,3 +60,9 @@
     line-opacity: .2;    
   }
 }
+
+.barriers {
+  polygon-fill: #00d;
+  line-width: 1;
+  line-color: #d0d;
+}
