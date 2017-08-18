@@ -6,7 +6,8 @@
   [feature = 'railway_rail'],
   [feature = 'railway_preserved'],
   [feature = 'railway_disused'],
-  [feature = 'railway_monorail'] {
+  [feature = 'railway_monorail'],
+  [feature = 'railway_INT-preserved-ssy'] {
     line-width: 7;
   }
   [feature = 'highway_construction'] {
@@ -61,7 +62,8 @@
   [feature = 'railway_rail'],
   [feature = 'railway_preserved'],
   [feature = 'railway_disused'],
-  [feature = 'railway_monorail'] {
+  [feature = 'railway_monorail'],
+  [feature = 'railway_INT-preserved-ssy'] {
     line-width: 0;
     ::line {
       line-color: #000;//#091E22;
