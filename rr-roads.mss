@@ -18,6 +18,11 @@
     [feature = 'railway_miniature'] {
       line-width: 4;
     }
+
+    [features = 'aeroway_runway'] {
+      line-width: 24px;
+    }
+
     [feature = 'highway_construction'] {
     }
     [feature = 'highway_motorway'] {
@@ -113,6 +118,11 @@
         line-width: 2;
         line-dasharray: 3, 3;
       }
+    }
+
+    [features = 'aeroway_runway'] {
+      line-color: #091E22
+      line-width: 20;
     }
 
     [feature = 'highway_construction'] {
