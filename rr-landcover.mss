@@ -62,6 +62,7 @@
   }
 }
 
+.line_barriers,
 .barriers {
   line-width: 1;
   line-color: #000;
