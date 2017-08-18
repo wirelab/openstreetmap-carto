@@ -1,7 +1,7 @@
 #buildings {
   polygon-fill: #0A2124;
   line-clip: false;
-  line-color: #092529;
+  line-color: #00D;
   line-width: 2;
 }
 
@@ -9,7 +9,7 @@
   polygon-clip: false;
   polygon-fill: #0A2124;
   line-clip: false;
-  line-color: #092529;
+  line-color: #00D;
   line-width: 2;
 }
 
