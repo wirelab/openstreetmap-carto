@@ -108,6 +108,7 @@ overlapping borders correctly.
   comp-op: darken;
 }
 
+/*
 #admin-mid-zoom[zoom >= 11][zoom < 13],
 #admin-high-zoom[zoom >= 13] {
   [admin_level = '5'][zoom >= 11] {
@@ -146,7 +147,9 @@ overlapping borders correctly.
   opacity: 0.5;
   comp-op: darken;
 }
+*/
 
+/*
 #admin-high-zoom[zoom >= 13] {
   [admin_level = '9'],
   [admin_level = '10'] {
@@ -164,33 +167,9 @@ overlapping borders correctly.
   opacity: 0.5;
   comp-op: darken;
 }
-
-/*
-#admin-text[zoom >= 16] {
-  text-name: "[name]";
-  text-face-name: @book-fonts;
-  text-fill: @admin-boundaries;
-  text-halo-radius: @standard-halo-radius;
-  text-halo-fill: @standard-halo-fill;
-  text-placement: line;
-  text-clip: true;
-  text-vertical-alignment: middle;
-  text-dy: -10;
-}
-
-#nature-reserve-text[zoom >= 13][way_pixels > 192000] {
-  text-name: "[name]";
-  text-face-name: @book-fonts;
-  text-fill: green;
-  text-halo-radius: @standard-halo-radius;
-  text-halo-fill: @standard-halo-fill;
-  text-placement: line;
-  text-clip: true;
-  text-vertical-alignment: middle;
-  text-dy: -10;
-}
 */
 
+/*
 #nature-reserve-boundaries {
   [way_pixels > 100][zoom >= 7] {
     [zoom < 10] {
@@ -223,3 +202,4 @@ overlapping borders correctly.
     }
   }
 }
+*/
