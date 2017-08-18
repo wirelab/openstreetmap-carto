@@ -18,7 +18,8 @@
     line-color: darken(#112421, 5%);
   }
 
-  [feature = 'leisure_playground'] {
+  [feature = 'leisure_playground'],
+  [feature = 'leisure_pitch'] {
     polygon-fill: #1f1f1d;
     line-width: 1;
     line-color: darken(#1f1f1d, 5%);    
@@ -37,5 +38,15 @@
   }
   [feature = 'landuse_cemetery'],
   [feature = 'amenity_grave_yard'] {
+  }
+
+  [feature = 'amenity_parking'],
+  [feature = 'amenity_bicycle_parking'],
+  [feature = 'amenity_motorcycle_parking'] {
+    polygon-fill: #000;
+    polygon-opacity: .1;
+    line-width: 1;
+    line-color: #000;
+    line-opacity: .2;    
   }
 }
