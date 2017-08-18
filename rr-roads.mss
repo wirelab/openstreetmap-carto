@@ -25,8 +25,7 @@
   }
   [feature = 'highway_road'] {
   }
-  [feature = 'highway_service'] {
-  }
+  [feature = 'highway_service'],
   [feature = 'highway_pedestrian'] {
     line-width: 8;
   }
@@ -61,8 +60,7 @@
   }
   [feature = 'highway_road'] {
   }
-  [feature = 'highway_service'] {
-  }
+  [feature = 'highway_service'],
   [feature = 'highway_pedestrian'] {
     line-width: 4;
   }
