@@ -18,6 +18,16 @@
     line-color: darken(#112421, 5%);
   }
 
+  [feature = 'leisure_sports_centre'],
+  [feature = 'leisure_fitness_center'],
+  [feature = 'leisure_stadium'] {
+    polygon-fill: #000;
+    polygon-opacity: .1;
+    line-width: 1;
+    line-color: #000;
+    line-opacity: .2;
+  }
+
   [feature = 'leisure_playground'],
   [feature = 'leisure_pitch'] {
     polygon-fill: #1f1f1d;
