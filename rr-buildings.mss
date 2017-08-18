@@ -1,22 +1,16 @@
 #buildings {
-  line-color: #009;
-  polygon-fill: #00D;
-  line-width: 1.75;
   line-clip: false;
+  line-color: #092529;
+  line-width: 2;
+  polygon-fill: #0A2124;
 }
 
 #buildings-major {
-  [aeroway = 'terminal'],
-  [amenity = 'place_of_worship'],
-  [building = 'train_station'] {
-    polygon-fill: #0D0;
-    polygon-clip: false;
-    [zoom >= 15] {
-      line-width: 1.75;
-      line-clip: false;
-      line-color: #090;
-    }
-  }
+  line-clip: false;
+  line-color: #092529;
+  line-width: 2;
+  polygon-clip: false;
+  polygon-fill: #0A2124;
 }
 
 #bridge {
