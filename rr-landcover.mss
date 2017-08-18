@@ -1,9 +1,10 @@
 #landcover {
-  [feature = 'landuse_residential'] {
-    polygon-fill: #000;
-    polygon-opacity: .1;
+  [feature = 'landuse_residential'],
+  [feature = 'landuse_industrial'] {
+    polygon-fill: #00d;//#000;
+    polygon-opacity: .5;
     line-width: 1;
-    line-color: #000;
-    line-opacity: .2;
+    line-color: #0dd;//#000;
+    line-opacity: .75;
   }
 }
