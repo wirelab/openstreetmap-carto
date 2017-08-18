@@ -40,8 +40,9 @@ Stylesheet:
   - fonts.mss
   - shapefiles.mss
   - water.mss
-  - rr-roads.mss
   - rr-buildings.mss
+  - rr-admin.mss
+  - rr-roads.mss
   #- admin.mss
   #- landcover.mss
   #- water-features.mss
