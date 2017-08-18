@@ -12,5 +12,7 @@
 
   [feature = 'landuse_grass'] {
     polygon-fill: #152D29;
+    line-width: 1;
+    line-color: darken(#152D29, 5%);
   }
 }
