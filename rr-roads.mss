@@ -109,11 +109,11 @@
   [feature = 'highway_steps'] {
     line-width: 0;
     ::line {
-      line-color: #091E22;
+      line-color: #1D5760;
       line-width: 5;
     }
     ::dash {
-      line-color: darken(#091E22, 5%);
+      line-color: #091E22;
       line-width: 4;
       line-dasharray: 2, 2;
     }
