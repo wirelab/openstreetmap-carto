@@ -1,4 +1,6 @@
-#roads-casing[zoom >= 14] {
+#roads-casing[zoom >= 14],
+#bridges-casing[zoom >= 14], 
+#tunnels-casing[zoom >= 14] {
   line-width: 20;
   line-color: #1D5760;
   line-join: round;
@@ -54,7 +56,10 @@
   [feature = 'highway_platform'] {
   }
 }
-#roads-fill[zoom >= 14] {
+
+#roads-fill[zoom >= 14],
+#bridges-fill[zoom >= 14], 
+#tunnels-fill[zoom >= 14] {
   line-width: 16;
   //line-color: #091E22;
   line-color: #d00;
