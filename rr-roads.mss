@@ -59,7 +59,6 @@
     [feature = 'highway_service'],
     [feature = 'highway_pedestrian'] {
       line-width: 7;
-      line-cap: round;
     }
     [feature = 'highway_steps'],
     [feature = 'highway_cycleway'],
@@ -184,7 +183,6 @@
     [feature = 'highway_pedestrian'] {
       line-color: #091E22;
       line-width: 4;
-      line-cap: round;
     }
     [feature = 'highway_steps'] {
       line-width: 0;
