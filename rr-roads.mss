@@ -22,6 +22,7 @@
     [feature = 'railway_tram'],
     [feature = 'railway_subway'],
     [feature = 'railway_monorail'],
+    [feature = 'railway_construction'],
     [feature = 'railway_INT-preserved-ssy'],
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 7;
@@ -119,6 +120,7 @@
     [feature = 'railway_tram'],
     [feature = 'railway_subway'],
     [feature = 'railway_monorail'],
+    [feature = 'railway_construction'],
     [feature = 'railway_INT-preserved-ssy'],
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 0;
