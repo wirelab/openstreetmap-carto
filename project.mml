@@ -42,6 +42,7 @@ Stylesheet:
   - shapefiles.mss
   - water.mss
   - rr-roads.mss
+  - rr-buildings.mss
   #- landcover.mss
   #- water-features.mss
   #- road-colors-generated.mss
