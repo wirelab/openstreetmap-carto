@@ -234,6 +234,6 @@
 #highway-area-fill {
   [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
-    polygon-fill: #0A2124;
+    polygon-fill: darken(#0A2124, 5%);
   }
 }
