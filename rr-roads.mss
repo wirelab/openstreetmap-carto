@@ -3,10 +3,12 @@
   line-color: #1D5760;
   line-join: round;
 
-  [feature = 'railway_preserved'] {
+  [feature = 'railway_rail'],
+  [feature = 'railway_preserved'],
+  [feature = 'railway_disused'],
+  [feature = 'railway_monorail'] {
     line-width: 0;
   }
-
   [feature = 'highway_construction'] {
   }
   [feature = 'highway_motorway'] {
@@ -50,12 +52,13 @@
   [feature = 'railway_preserved'],
   [feature = 'railway_disused'],
   [feature = 'railway_monorail'] {
+    line-width: 0;
     ::line {
       line-width: 4;
-      line-color: #00d;
+      line-color: #1D5760;
     }
     ::dash {
-      line-color: #d0d;
+      line-color: #091E22;
       line-width: 2;
       line-dasharray: 6, 6;
     }
