@@ -62,7 +62,7 @@
 }
 
 .barriers {
-  polygon-fill: #00d;
   line-width: 1;
-  line-color: #d0d;
+  line-color: #000;
+  line-opacity: 0.2;
 }
