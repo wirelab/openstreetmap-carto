@@ -1,6 +1,6 @@
 #necountries {
   line-color: #d00;
-  line-width: 0.2;
+  line-width: 10;
 
   /*
   [zoom >= 1][zoom < 4] {
