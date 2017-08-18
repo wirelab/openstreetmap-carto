@@ -4,13 +4,13 @@
   [admin_level = '2'],
   [admin_level = '3'] {
     line-clip: false;
-    line-color: #0A2124;
+    line-color: darken(#0A2124, 5%);
     line-width: 4;
   }
 
   [admin_level = '4'] {
     line-clip: false;
-    line-color: #0A2124;
+    line-color: darken(#0A2124, 5%);
     line-width: 2;
   }
 
