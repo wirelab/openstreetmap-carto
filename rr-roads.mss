@@ -6,6 +6,7 @@
     line-color: #1D5760;
     line-clip: false;
     line-join: round;
+    line-cap: round;
 
     [feature = 'railway_rail'],
     [feature = 'railway_preserved'],
@@ -92,6 +93,7 @@
     line-color: #d00;
     line-clip: false;
     line-join: round;
+    line-cap: round;
 
     [feature = 'railway_rail'],
     [feature = 'railway_preserved'],
