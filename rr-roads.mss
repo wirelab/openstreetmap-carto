@@ -52,7 +52,7 @@
   [feature = 'railway_rail'],
   [feature = 'railway_preserved'],
   [feature = 'railway_monorail'] {
-    line-color: white;
+    line-color: #0d0;
   }
 
   [feature = 'highway_construction'] {
