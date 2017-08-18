@@ -7,7 +7,7 @@
   [feature = 'railway_preserved'],
   [feature = 'railway_disused'],
   [feature = 'railway_monorail'] {
-    line-width: 8;
+    line-width: 7;
   }
   [feature = 'highway_construction'] {
   }
@@ -16,26 +16,26 @@
   [feature = 'highway_trunk'] {
   }
   [feature = 'highway_primary'] {
-    line-width: 16;
+    line-width: 15;
   }
   [feature = 'highway_secondary'] {
-    line-width: 16;
+    line-width: 15;
   }
   [feature = 'highway_tertiary'] {
-    line-width: 12;
+    line-width: 11;
   }
   [feature = 'highway_residential'],
   [feature = 'highway_unclassified'] {
-    line-width: 10;
+    line-width: 9;
   }
   [feature = 'highway_living_street'] {
-    line-width: 10;
+    line-width: 9;
   }
   [feature = 'highway_road'] {
   }
   [feature = 'highway_service'],
   [feature = 'highway_pedestrian'] {
-    line-width: 8;
+    line-width: 7;
   }
   [feature = 'highway_raceway'] {
   }
