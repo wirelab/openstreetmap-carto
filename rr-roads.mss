@@ -37,7 +37,7 @@
       line-width: 15;
     }
     [feature = 'highway_secondary'] {
-      line-width: 15;
+      line-width: 13;
     }
     [feature = 'highway_tertiary'] {
       line-width: 11;
@@ -149,7 +149,7 @@
     }
     [feature = 'highway_secondary'] {
       line-color: #091E22;
-      line-width: 12;
+      line-width: 10;
     }
     [feature = 'highway_tertiary'] {
       line-color: #091E22;
