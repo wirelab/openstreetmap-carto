@@ -38,6 +38,7 @@
   [feature = 'natural_grassland'],
   [feature = 'landuse_grass'],
   [feature = 'landuse_meadow'],
+  [feature = 'landuse_farmland'],
   [feature = 'landuse_recreation_ground'],
   [feature = 'landuse_village_green'],
   [feature = 'leisure_common'],
