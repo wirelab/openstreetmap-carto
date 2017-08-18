@@ -39,9 +39,12 @@
   }
   [feature = 'highway_steps'],
   [feature = 'highway_cycleway'],
-  [feature = 'highway_footway'],
-  [feature = 'highway_track'] {
+  [feature = 'highway_footway'] {
     line-width: 6;
+  }
+  [feature = 'highway_path'],
+  [feature = 'highway_track'] {
+    line-width: 5;
   }
   [feature = 'highway_raceway'] {
   }
@@ -121,10 +124,14 @@
     }
   }
   [feature = 'highway_cycleway'],
-  [feature = 'highway_footway'],
-  [feature = 'highway_track'] {
+  [feature = 'highway_footway'] {
     line-color: #091E22;
     line-width: 4;
+  }
+  [feature = 'highway_track'],
+  [feature = 'highway_path'] {
+    line-color: #091E22;
+    line-width: 3;
   }
   [feature = 'highway_raceway'] {
     line-color: #091E22;
