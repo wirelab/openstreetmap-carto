@@ -62,7 +62,7 @@
     }
     [feature = 'highway_cycleway'],
     [feature = 'highway_footway'] {
-      //line-width: 6;
+      line-width: 0;
     }
     [feature = 'highway_path'],
     [feature = 'highway_track'],
