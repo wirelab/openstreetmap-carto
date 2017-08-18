@@ -15,6 +15,6 @@
     line-color: #00d;
   }
 
-  opacity: 0.4;
-  comp-op: darken;
+//  opacity: 0.4;
+//  comp-op: darken;
 }
