@@ -39,7 +39,8 @@
   }
   [feature = 'highway_steps'],
   [feature = 'highway_cycleway'],
-  [feature = 'highway_footway'] {
+  [feature = 'highway_footway'],
+  [feature = 'highway_track'] {
     line-width: 6;
   }
   [feature = 'highway_raceway'] {
@@ -120,7 +121,8 @@
     }
   }
   [feature = 'highway_cycleway'],
-  [feature = 'highway_footway'] {
+  [feature = 'highway_footway'],
+  [feature = 'highway_track'] {
     line-color: #091E22;
     line-width: 4;
   }
