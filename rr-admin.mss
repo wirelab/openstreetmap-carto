@@ -1,5 +1,10 @@
+#admin-low-zoom,
+#admin-mid-zoom,
 #admin-high-zoom {
-  [admin_level = '2'],
+  [admin_level = '2'] {
+    line-width: 10;
+    line-color: #d0d;
+  }
   [admin_level = '3'] {
     line-width: 10;
     line-color: #d00;
