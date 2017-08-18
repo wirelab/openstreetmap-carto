@@ -43,7 +43,8 @@
     line-width: 6;
   }
   [feature = 'highway_path'],
-  [feature = 'highway_track'] {
+  [feature = 'highway_track'],
+  [feature = 'highway_bridleway'] {
     line-width: 5;
   }
   [feature = 'highway_raceway'] {
@@ -129,7 +130,8 @@
     line-width: 4;
   }
   [feature = 'highway_track'],
-  [feature = 'highway_path'] {
+  [feature = 'highway_path'],
+  [feature = 'highway_bridleway'] {
     line-color: #091E22;
     line-width: 3;
   }
