@@ -65,7 +65,6 @@
     [feature = 'highway_cycleway'],
     [feature = 'highway_footway'] {
       line-width: 6;
-      line-cap: round;
     }
     [feature = 'highway_path'],
     [feature = 'highway_track'],
@@ -189,7 +188,6 @@
     }
     [feature = 'highway_steps'] {
       line-width: 0;
-      line-cap: round;
       ::line {
         line-color: #1D5760;
         line-width: 5;
@@ -204,7 +202,6 @@
     [feature = 'highway_footway'] {
       line-color: #091E22;
       line-width: 4;
-      line-cap: round;
     }
     [feature = 'highway_track'],
     [feature = 'highway_path'],
