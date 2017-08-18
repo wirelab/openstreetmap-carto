@@ -41,6 +41,7 @@
   [feature = 'landuse_recreation_ground'],
   [feature = 'landuse_village_green'],
   [feature = 'leisure_common'],
+  [feature = 'leisure_park'],
   [feature = 'leisure_garden'] {
     polygon-fill: #152D29;
     line-width: 1;
