@@ -19,7 +19,7 @@
       line-width: 4;
     }
 
-    [features = 'aeroway_runway'] {
+    [feature = 'aeroway_runway'] {
       line-width: 24px;
     }
 
@@ -120,7 +120,7 @@
       }
     }
 
-    [features = 'aeroway_runway'] {
+    [feature = 'aeroway_runway'] {
       line-color: #091E22;
       line-width: 20;
     }
