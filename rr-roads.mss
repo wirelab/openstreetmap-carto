@@ -9,6 +9,7 @@
   [feature = 'highway_trunk'] {
   }
   [feature = 'highway_primary'] {
+    line-width: 16;
   }
   [feature = 'highway_secondary'] {
     line-width: 16;
@@ -44,6 +45,7 @@
   [feature = 'highway_trunk'] {
   }
   [feature = 'highway_primary'] {
+    line-width: 12;
   }
   [feature = 'highway_secondary'] {
     line-width: 12;
