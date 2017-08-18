@@ -15,6 +15,9 @@
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 7;
     }
+    [feature = 'railway_miniature'] {
+      line-width: 4;
+    }
     [feature = 'highway_construction'] {
     }
     [feature = 'highway_motorway'] {
@@ -97,6 +100,18 @@
         line-color: #1D5760;
         line-width: 4;
         line-dasharray: 6, 6;
+      }
+    }
+    [feature = 'railway_miniature'] {
+      line-width: 0;
+      ::line {
+        line-color: #000;//#091E22;
+        line-width: 3;
+      }
+      ::dash {
+        line-color: #1D5760;
+        line-width: 2;
+        line-dasharray: 3, 3;
       }
     }
 
