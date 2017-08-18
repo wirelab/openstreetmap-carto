@@ -176,7 +176,7 @@
     }
     [feature = 'highway_service'],
     [feature = 'highway_pedestrian'] {
-      line-color: #1D5760;
+      line-color: #091E22;
       line-width: 4;
     }
     [feature = 'highway_steps'] {
@@ -193,7 +193,7 @@
     }
     [feature = 'highway_cycleway'],
     [feature = 'highway_footway'] {
-      line-color: #091E22;
+      line-color: #1D5760;
       line-width: 4;
     }
     [feature = 'highway_track'],
