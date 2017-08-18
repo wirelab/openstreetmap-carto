@@ -46,12 +46,11 @@
   line-color: #d00;
   line-join: round;
 
-  [feature = 'railway_preserved'] {
-    line-width: 4;
-  }
   [feature = 'railway_rail'],
   [feature = 'railway_preserved'],
+  [feature = 'railway_disused'],
   [feature = 'railway_monorail'] {
+    line-width: 4;
     line-color: #0d0;
   }
 
