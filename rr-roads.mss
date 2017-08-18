@@ -19,6 +19,7 @@
     [feature = 'railway_rail'],
     [feature = 'railway_preserved'],
     [feature = 'railway_disused'],
+    [feature = 'railway_tram'],
     [feature = 'railway_monorail'],
     [feature = 'railway_INT-preserved-ssy'],
     [feature = 'railway_INT-spur-siding-yard'] {
@@ -114,6 +115,7 @@
     [feature = 'railway_rail'],
     [feature = 'railway_preserved'],
     [feature = 'railway_disused'],
+    [feature = 'railway_tram'],
     [feature = 'railway_monorail'],
     [feature = 'railway_INT-preserved-ssy'],
     [feature = 'railway_INT-spur-siding-yard'] {
