@@ -1,3 +1,11 @@
+.water-lines {
+  line-width: 20;
+  line-color: #1D5760;
+  line-clip: false;
+  line-cap: round;
+  line-join: round;
+}
+
 .roads-casing[zoom >= 14],
 .bridges-casing[zoom >= 14], 
 .tunnels-casing[zoom >= 14] {
@@ -16,7 +24,8 @@
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 7;
     }
-    [feature = 'railway_narrow_gauge'] {
+    [feature = 'railway_narrow_gauge'],
+    [feature = 'railway_light_rail'] {
       line-width: 5.5;
     }
     [feature = 'railway_miniature'] {
@@ -119,7 +128,8 @@
         line-dasharray: 6, 6;
       }
     }
-    [feature = 'railway_narrow_gauge'] {
+    [feature = 'railway_narrow_gauge'],
+    [feature = 'railway_light_rail'] {
       line-width: 0;
       ::line {
         line-color: #000;//#091E22;
