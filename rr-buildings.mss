@@ -1,7 +1,7 @@
 #buildings {
   polygon-fill: #0A2124;
   line-clip: false;
-  line-color: #000;
+  line-color: darken(#0A2124, 20%);
   line-width: 2;
 }
 
@@ -9,10 +9,10 @@
   polygon-clip: false;
   polygon-fill: #0A2124;
   line-clip: false;
-  line-color: #000;
+  line-color: darken(#0A2124, 20%);
   line-width: 2;
 }
 
 #bridge {
-  polygon-fill: #D0D;
+  polygon-fill: #0A2124;
 }
