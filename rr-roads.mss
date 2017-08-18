@@ -110,12 +110,12 @@
     line-width: 0;
     ::line {
       line-color: #091E22;
-      line-width: 3;
+      line-width: 4;
     }
     ::dash {
       line-color: darken(#091E22, 5%);
-      line-width: 2;
-      line-dasharray: 1, 1;
+      line-width: 3;
+      line-dasharray: 2, 1;
     }
   }
   [feature = 'highway_raceway'] {
