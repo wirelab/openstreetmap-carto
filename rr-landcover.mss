@@ -23,7 +23,8 @@
   [feature = 'natural_scrub'],
   [feature = 'natural_heath'],
   [feature = 'natural_wood'],
-  [feature = 'landuse_forest'] {
+  [feature = 'landuse_forest'],
+  [feature = 'landuse_orchard'] {
     polygon-fill: #112421;
     line-width: 1;
     line-color: darken(#112421, 5%);
@@ -81,7 +82,7 @@
 }
 
 #nature-reserve-boundaries {
-  polygon-pattern-file: url('rr-patterns/grave_yard.svg');
+  polygon-pattern-file: url('rr-patterns/reserve.svg');
   polygon-pattern-alignment: global;
   line-width: 2;
   line-color: #0d0;
