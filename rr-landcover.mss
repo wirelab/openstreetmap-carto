@@ -62,6 +62,9 @@
   }
   [feature = 'landuse_cemetery'],
   [feature = 'amenity_grave_yard'] {
+    polygon-fill: #112421;
+    line-width: 1;
+    line-color: darken(#112421, 5%);
   }
 
   [feature = 'amenity_parking'],
