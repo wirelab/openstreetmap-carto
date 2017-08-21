@@ -26,7 +26,7 @@
 }
 
 #water-areas {
-  polygon-fill: #d00;
+  polygon-fill: @water-color;
   line-width: 1;
-  line-color: lighten(#d00, 5%);
+  line-color: lighten(@water-color, 5%);
 }
