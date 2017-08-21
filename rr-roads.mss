@@ -327,7 +327,7 @@
 }
 .tunnels-casing[zoom >= 14] {
   ::casing {
-    line-opacity: 0.75;
+    line-opacity: 0.9;
   }
 }
 .bridges-fill[zoom >= 14] {
@@ -337,7 +337,6 @@
 }
 .tunnels-fill[zoom >= 14] {
   ::fill {
-    line-opacity: 0.75;
-    line-dasharray: 5, 15;
+    line-opacity: 0.9;
   }
 }
