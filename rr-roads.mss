@@ -1,6 +1,3 @@
-@road-casing: #333333;
-@road-fill: #111111;
-
 .water-lines {
   line-width: 4;
   line-color: #164A51;
@@ -19,7 +16,7 @@
 .tunnels-casing[zoom >= 14] {
   ::casing {
     line-width: 20;
-    line-color: @road-casing;
+    line-color: @road-outline-color;
     line-clip: false;
     line-cap: round;
     line-join: round;
@@ -171,83 +168,83 @@
     }
 
     [feature = 'aeroway_runway'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 20;
     }
     [feature = 'aeroway_taxiway'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 16;
     }
 
     [feature = 'highway_construction'] {
-      line-color: @road-fill;
+      line-color: @road-color;
     }
     [feature = 'highway_motorway'] {
-      line-color: @road-fill;
+      line-color: @road-color;
     }
     [feature = 'highway_trunk'] {
-      line-color: @road-fill;
+      line-color: @road-color;
     }
     [feature = 'highway_primary'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 12;
     }
     [feature = 'highway_secondary'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 10;
     }
     [feature = 'highway_tertiary'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 8;
     }
     [feature = 'highway_residential'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 6;
     }
     [feature = 'highway_unclassified'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 6;
     }
     [feature = 'highway_living_street'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 6;
     }
     [feature = 'highway_road'] {
-      line-color: @road-fill;
+      line-color: @road-color;
     }
     [feature = 'highway_service'],
     [feature = 'highway_pedestrian'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 4;
     }
     [feature = 'highway_steps'] {
       line-width: 0;
       ::line {
-        line-color: @road-casing;
+        line-color: @road-outline-color;
         line-width: 5;
       }
       ::dash {
-        line-color: @road-fill;
+        line-color: @road-color;
         line-width: 4;
         line-dasharray: 2, 2;
       }
     }
     [feature = 'highway_cycleway'],
     [feature = 'highway_footway'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 3;
     }
     [feature = 'highway_track'],
     [feature = 'highway_path'],
     [feature = 'highway_bridleway'] {
-      line-color: @road-fill;
+      line-color: @road-color;
       line-width: 3;
     }
     [feature = 'highway_raceway'] {
-      line-color: @road-fill;
+      line-color: @road-color;
     }
     [feature = 'highway_platform'] {
-      line-color: @road-fill;
+      line-color: @road-color;
     }
     [feature = 'railway_platform'] {
       line-width: 0;
