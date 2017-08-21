@@ -54,10 +54,10 @@
     [feature = 'highway_trunk'] {
     }
     [feature = 'highway_primary'] {
-      line-width: 14;
+      line-width: 16;
     }
     [feature = 'highway_secondary'] {
-      line-width: 12;
+      line-width: 14;
     }
     [feature = 'highway_tertiary'] {
       line-width: 10;
@@ -218,11 +218,11 @@
     }
     [feature = 'highway_primary'] {
       line-color: @road-color;
-      line-width: 12;
+      line-width: 14;
     }
     [feature = 'highway_secondary'] {
       line-color: @road-color;
-      line-width: 10;
+      line-width: 12;
     }
     [feature = 'highway_tertiary'] {
       line-color: @road-color;
