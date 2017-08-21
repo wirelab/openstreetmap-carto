@@ -320,7 +320,7 @@
 }
 .tunnels-casing[zoom >= 14] {
   ::casing {
-    line-color: $road-outline-color;
+    line-color: @road-outline-color;
     line-width: 4;
     line-cap: round;
     line-dasharray: 4, 4;
@@ -331,7 +331,7 @@
 }
 .tunnels-fill[zoom >= 14] {
   ::fill {
-    line-color: $road-color;
+    line-color: @road-color;
     line-width: 4;
     line-cap: round;
     line-dasharray: 4, 4;
