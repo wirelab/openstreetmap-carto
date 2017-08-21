@@ -1,5 +1,5 @@
 #landuse-overlay {
-  [feature = 'military'] {
+  [landuse = 'military'] {
     polygon-fill: #d00;
     polygon-opacity: .3;
     line-width: 1;
