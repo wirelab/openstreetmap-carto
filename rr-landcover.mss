@@ -1,10 +1,10 @@
 #landuse-overlay {
   [landuse = 'military'] {
     polygon-fill: #d00;
-    polygon-opacity: .3;
+    polygon-opacity: .1;
     line-width: 1;
     line-color: #d00;
-    line-opacity: .5;
+    line-opacity: .2;
   }
 }
 
