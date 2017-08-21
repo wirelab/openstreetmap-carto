@@ -16,7 +16,7 @@
 .tunnels-casing[zoom >= 14] {
   ::casing {
     line-width: 20;
-    line-color: #1D5760;
+    line-color: #888888;
     line-clip: false;
     line-cap: round;
     line-join: round;
