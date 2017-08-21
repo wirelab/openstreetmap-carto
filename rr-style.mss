@@ -1,7 +1,7 @@
 @land-color: #071819;
 @water-color: #092533;
 @residential-color: #0A2124;
-@grass-color: #143831;
+@grass-color: #112B1F;
 @forest-color: #0E231B;
 @rock-color: #222222;
 @beach-color: #2B2420;
