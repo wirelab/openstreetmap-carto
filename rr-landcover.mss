@@ -64,6 +64,7 @@
   [feature = 'amenity_grave_yard'] {
     polygon-fill: #112421;
     polygon-pattern-file: url('rr-patterns/grave_yard.svg');
+    polygon-pattern-alignment: global;
     line-width: 1;
     line-color: darken(#112421, 5%);
   }
