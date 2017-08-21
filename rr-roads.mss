@@ -314,3 +314,11 @@
     polygon-fill: @road-platform-color;
   }
 }
+
+.bridges-casing[zoom >= 14], 
+.bridges-fill[zoom >= 14], 
+.tunnels-casing[zoom >= 14], 
+.tunnels-fill[zoom >= 14] {
+  line-color: red;
+  line-cap: square;
+}
