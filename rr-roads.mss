@@ -300,8 +300,8 @@
 #highway-area-casing {
   [feature = 'highway_pedestrian'] {
     line-clip: false;
-    line-color: @road-outline-color;
-    line-width: 1;
+    line-color: @squares-outline-color;
+    line-width: 2;
   }
   [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
@@ -312,7 +312,7 @@
 }
 #highway-area-fill {
   [feature = 'highway_pedestrian'] {
-    polygon-fill: @road-color;
+    polygon-fill: @squares-color;
   }
   [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
