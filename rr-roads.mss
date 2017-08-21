@@ -328,6 +328,6 @@
     line-color: #d00;
     line-width: 4;
     line-cap: round;
-    line-dasharray: 10, 4;
+    line-dasharray: 4, 4;
   }
 }
