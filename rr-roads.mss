@@ -154,6 +154,16 @@
         line-opacity: .5;
       }
     }
+    [feature = 'railway_INT-preserved-ssy'] {
+      ::line {
+        line-opacity: .5;
+      }
+      ::dash {
+        line-opacity: .5;
+        line-dasharray: 11, 2;
+      }
+    }
+
 
     [feature = 'railway_narrow_gauge'],
     [feature = 'railway_light_rail'] {
