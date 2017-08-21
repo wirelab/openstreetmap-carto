@@ -322,7 +322,7 @@
 
 .bridges-casing[zoom >= 14] {
   ::casing {
-    line-color: #d00;
+    line-cap: butt;
   }  
 }
 .tunnels-casing[zoom >= 14] {
@@ -332,7 +332,7 @@
 }
 .bridges-fill[zoom >= 14] {
   ::fill {
-    line-color: #d00;
+    line-cap: butt;
   }  
 }
 .tunnels-fill[zoom >= 14] {
