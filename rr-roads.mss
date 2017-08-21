@@ -338,6 +338,6 @@
 .tunnels-fill[zoom >= 14] {
   ::fill {
     line-opacity: 0.75;
-    line-dasharray: 6, 6;
+    line-dasharray: 4, 10;
   }
 }
