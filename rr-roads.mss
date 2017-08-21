@@ -130,6 +130,7 @@
     [feature = 'railway_INT-preserved-ssy'],
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 0;
+      line-cap: square;
       ::line {
         line-color: @road-color;
         line-width: 5;
@@ -167,10 +168,10 @@
       }
     }
 
-
     [feature = 'railway_narrow_gauge'],
     [feature = 'railway_light_rail'] {
       line-width: 0;
+      line-cap: square;
       ::line {
         line-color: @road-color;
         line-width: 4;
@@ -183,6 +184,7 @@
     }
     [feature = 'railway_miniature'] {
       line-width: 0;
+      line-cap: square;
       ::line {
         line-color: @road-color;
         line-width: 3;
@@ -196,10 +198,12 @@
 
     [feature = 'aeroway_runway'] {
       line-color: @road-color;
+      line-cap: square;
       line-width: 20;
     }
     [feature = 'aeroway_taxiway'] {
       line-color: @road-color;
+      line-cap: square;
       line-width: 16;
     }
 
