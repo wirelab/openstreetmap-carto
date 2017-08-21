@@ -43,17 +43,18 @@
     line-opacity: .2;
   }
 
-  [feature = 'natural_beach'] {
+  [feature = 'natural_beach'],
+  [feature = 'leisure_playground'] {
     polygon-fill: @beach-color;
     line-width: 1;
     line-color: lighten(@beach-color, 5%);  
   }
 
-  [feature = 'leisure_playground'],
+  
   [feature = 'leisure_pitch'] {
-    polygon-fill: @playground-color;
+    polygon-fill: @grass-color;
     line-width: 1;
-    line-color: lighten(@playground-color, 5%);    
+    line-color: lighten(@grass-color, 5%);    
   }
 
   [feature = 'natural_grassland'],
