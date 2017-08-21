@@ -2,7 +2,7 @@
   [landuse = 'military'] {
     polygon-pattern-file: url('rr-patterns/military.png');
     polygon-pattern-alignment: global;
-    line-width: 2;
+    line-width: 3;
     line-color: #B11D04;
     line-opacity: .4;
   }
@@ -93,7 +93,7 @@
 #nature-reserve-boundaries {
   polygon-pattern-file: url('rr-patterns/reserve.png');
   polygon-pattern-alignment: global;
-  line-width: 2;
+  line-width: 3;
   line-color: #0E2823;
 }
 
