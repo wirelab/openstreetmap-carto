@@ -1,11 +1,11 @@
 .water-lines {
-//  ::casing {
+  ::casing {
     line-width: 4;
-    line-color: #d00;//lighten(@water-color, 5%);
+    line-color: lighten(@water-color, 5%);
     line-clip: false;
     line-cap: round;
     line-join: round;
-//  }
+  }
 
 //  ::fill {
 //    line-width: 2;
