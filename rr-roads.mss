@@ -18,14 +18,14 @@
     [feature = 'railway_construction'],
     [feature = 'railway_INT-preserved-ssy'],
     [feature = 'railway_INT-spur-siding-yard'] {
-      line-width: 6;
+      line-width: 7;
     }
     [feature = 'railway_narrow_gauge'],
     [feature = 'railway_light_rail'] {
-      line-width: 5;
+      line-width: 6;
     }
     [feature = 'railway_miniature'] {
-      line-width: 4;
+      line-width: 5;
     }
 
     [feature = 'aeroway_runway'] {
