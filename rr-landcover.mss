@@ -91,7 +91,7 @@
 }
 
 #nature-reserve-boundaries {
-  polygon-pattern-file: url('rr-patterns/reserve.svg');
+  polygon-pattern-file: url('rr-patterns/reserve.png');
   polygon-pattern-alignment: global;
   line-width: 2;
   line-color: #073A30;
