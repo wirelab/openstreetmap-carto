@@ -1,7 +1,7 @@
 #landuse-overlay {
   [landuse = 'military'] {
-    polygon-fill: #B11D04;
-    polygon-opacity: .2;
+    polygon-pattern-file: url('rr-patterns/military.png');
+    polygon-pattern-alignment: global;
     line-width: 1;
     line-color: #B11D04;
     line-opacity: .4;
