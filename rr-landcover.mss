@@ -52,7 +52,7 @@
 
   
   [feature = 'leisure_pitch'] {
-    polygon-fill: @grass-color;
+    polygon-fill: @forest-color;
     line-width: 1;
     line-color: lighten(@grass-color, 5%);    
   }
