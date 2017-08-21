@@ -139,7 +139,7 @@
         line-width: 6;
       }
       ::dash {
-        line-color: #cccccc;
+        line-color: #666666;
         line-width: 4;
         line-dasharray: 6, 6;
       }
@@ -152,7 +152,7 @@
         line-width: 4;
       }
       ::dash {
-        line-color: #cccccc;
+        line-color: #666666;
         line-width: 3;
         line-dasharray: 4, 4;
       }
@@ -164,7 +164,7 @@
         line-width: 3;
       }
       ::dash {
-        line-color: #cccccc;
+        line-color: #666666;
         line-width: 2;
         line-dasharray: 3, 3;
       }
