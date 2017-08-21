@@ -1,10 +1,10 @@
 #landuse-overlay {
   [landuse = 'military'] {
-    polygon-fill: #d00;
-    polygon-opacity: .1;
+    polygon-fill: #B11D04;
+    polygon-opacity: .2;
     line-width: 1;
-    line-color: #d00;
-    line-opacity: .2;
+    line-color: #B11D04;
+    line-opacity: .4;
   }
 }
 
@@ -85,8 +85,7 @@
   polygon-pattern-file: url('rr-patterns/reserve.svg');
   polygon-pattern-alignment: global;
   line-width: 2;
-  line-color: #0d0;
-  line-opacity: .2;
+  line-color: #073A30;
 }
 
 .line_barriers,
