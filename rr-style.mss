@@ -3,6 +3,7 @@
 @residential-color: #0A2124;
 @grass-color: #143831;
 @forest-color: #0E231B;
+@rock-color: #222222;
 @beach-color: #2B2420;
 
 @building-color: #0A1D1E;

@@ -9,6 +9,11 @@
 }
 
 #landcover {
+  [feature = 'natural_bare_rock'] {
+    polygon-fill: @rock-color;
+    line-width: 1;
+    line-color: lighten(@rock-color, 5%);
+  }
   [feature = 'landuse_residential'],
   [feature = 'landuse_industrial'],
   [feature = 'landuse_commercial'],
