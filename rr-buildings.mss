@@ -7,9 +7,9 @@
 
 #buildings-major {
   polygon-clip: false;
-  polygon-fill: #0A2124;
+  polygon-fill: #295970;
   line-clip: false;
-  line-color: darken(#0A2124, 5%);
+  line-color: darken(#295970, 5%);
   line-width: 1;
 }
 
