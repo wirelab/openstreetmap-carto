@@ -81,9 +81,9 @@
 }
 
 #nature-reserve-boundaries {
-  polygon-fill: #0d0;
-  polygon-opacity: .1;
-  line-width: 1;
+  polygon-pattern-file: url('rr-patterns/grave_yard.svg');
+  polygon-pattern-alignment: global;
+  line-width: 2;
   line-color: #0d0;
   line-opacity: .2;
 }
