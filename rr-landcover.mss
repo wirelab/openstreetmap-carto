@@ -63,6 +63,7 @@
   [feature = 'landuse_cemetery'],
   [feature = 'amenity_grave_yard'] {
     polygon-fill: #112421;
+    polygon-pattern-file: url('rr-patterns/grave_yard.svg');
     line-width: 1;
     line-color: darken(#112421, 5%);
   }
