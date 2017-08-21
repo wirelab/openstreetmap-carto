@@ -75,6 +75,14 @@
   }
 }
 
+#nature-reserve-boundaries {
+  polygon-fill: #0d0;
+  polygon-opacity: .1;
+  line-width: 1;
+  line-color: #0d0;
+  line-opacity: .2;
+}
+
 .line_barriers,
 .barriers {
   line-width: 1;
