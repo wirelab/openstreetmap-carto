@@ -1,26 +1,3 @@
-.water-lines {
-  ::casing {
-    line-width: 4;
-    line-color: lighten(@water-color, 5%);
-    line-clip: false;
-    line-cap: round;
-    line-join: round;
-  }
-
-  ::fill {
-    line-width: 2;
-    line-color: @water-color;
-    line-clip: false;
-    line-cap: round;
-    line-join: round;
-  }
-
-  [waterway = "drain"],
-  [waterway = "ditch"] {
-    line-width: 2;
-  }
-}
-
 .roads-casing[zoom >= 14],
 .bridges-casing[zoom >= 14], 
 .tunnels-casing[zoom >= 14] {

@@ -37,12 +37,12 @@ _parts:
 
 Stylesheet:
   - shapefiles.mss
-  - water.mss
-  - rr-style.mss
   - rr-admin.mss
   - rr-buildings.mss
   - rr-landcover.mss
   - rr-roads.mss
+  - rr-style.mss
+  - rr-water.mss
   #- fonts.mss
   #- admin.mss
   #- landcover.mss
