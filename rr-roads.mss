@@ -316,15 +316,19 @@
 }
 
 .bridges-casing[zoom >= 14] {
-  
+  ::casing {
+    line-color: #d00;
+  }  
 }
 .tunnels-casing[zoom >= 14] {
-  ::fill {
+  ::casing {
     line-opacity: 0.75;
   }
 }
 .bridges-fill[zoom >= 14] {
-  
+  ::fill {
+    line-color: #d00;
+  }  
 }
 .tunnels-fill[zoom >= 14] {
   ::fill {
