@@ -84,11 +84,11 @@
     [feature = 'railway_platform'] {
       line-width: 0;
       ::line {
-        line-color: #091E22;
         line-width: 21;
+        polygon-fill: @road-platform-color;
       }
       ::dash {
-        line-color: #1D5760;
+        line-color: lighten(@road-platform-color, 5%);
         line-width: 21;
         line-dasharray: 7, 7;
       }
@@ -119,11 +119,11 @@
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 0;
       ::line {
-        line-color: #000;//#091E22;
+        line-color: @road-color;
         line-width: 6;
       }
       ::dash {
-        line-color: #666666;
+        line-color: @road-outline-color;
         line-width: 4;
         line-dasharray: 6, 6;
       }
@@ -132,11 +132,11 @@
     [feature = 'railway_light_rail'] {
       line-width: 0;
       ::line {
-        line-color: #000;//#091E22;
+        line-color: @road-color;
         line-width: 4;
       }
       ::dash {
-        line-color: #666666;
+        line-color: @road-outline-color;
         line-width: 3;
         line-dasharray: 4, 4;
       }
@@ -144,11 +144,11 @@
     [feature = 'railway_miniature'] {
       line-width: 0;
       ::line {
-        line-color: #000;//#091E22;
+        line-color: @road-color;
         line-width: 3;
       }
       ::dash {
-        line-color: #666666;
+        line-color: @road-outline-color;
         line-width: 2;
         line-dasharray: 3, 3;
       }
@@ -236,11 +236,11 @@
     [feature = 'railway_platform'] {
       line-width: 0;
       ::line {
-        line-color: #1D5760;
+        line-color: lighten(@road-platform-color, 5%);
         line-width: 7;
       }
       ::dash {
-        line-color: #091E22;
+        polygon-fill: @road-platform-color;
         line-width: 7;
         line-dasharray: 7, 7;
       }
