@@ -2,7 +2,7 @@
   [landuse = 'military'] {
     polygon-pattern-file: url('rr-patterns/military.png');
     polygon-pattern-alignment: global;
-    line-width: 1;
+    line-width: 4;
     line-color: #B11D04;
     line-opacity: .4;
   }
