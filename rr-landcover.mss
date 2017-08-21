@@ -17,11 +17,6 @@
     line-width: 1;
     line-color: lighten(@residential-color, 5%);
   }
-  [feature = 'landuse_retail'] {
-    polygon-fill: @squares-color;
-    line-width: 1;
-    line-color: @squares-outline-color;
-  }
 
   [feature = 'natural_scrub'],
   [feature = 'natural_heath'],
