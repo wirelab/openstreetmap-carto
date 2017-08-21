@@ -13,10 +13,10 @@
   [feature = 'landuse_industrial'],
   [feature = 'landuse_commercial'],
   [feature = 'landuse_retail'] {
-    polygon-fill: #111615;
+    polygon-fill: #1A2221;
 //    polygon-opacity: .1;
     line-width: 1;
-    line-color: darken(#111615, 5%);
+    line-color: darken(#1A2221, 5%);
 //    line-opacity: .2;
   }
 
