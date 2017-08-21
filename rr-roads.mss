@@ -1,7 +1,7 @@
 .water-lines {
 //  ::casing {
     line-width: 4;
-    line-color: lighten(@water-color);
+    line-color: lighten(@water-color, 5%);
     line-clip: false;
     line-cap: round;
     line-join: round;
