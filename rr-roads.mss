@@ -7,13 +7,13 @@
     line-join: round;
   }
 
-//  ::fill {
-//    line-width: 2;
-//    line-color: @water-color;
-//    line-clip: false;
-//    line-cap: round;
-//    line-join: round;
-//  }
+  ::fill {
+    line-width: 2;
+    line-color: @water-color;
+    line-clip: false;
+    line-cap: round;
+    line-join: round;
+  }
 
   [waterway = "drain"],
   [waterway = "ditch"] {
