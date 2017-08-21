@@ -58,31 +58,31 @@
     [feature = 'highway_trunk'] {
     }
     [feature = 'highway_primary'] {
-      line-width: 15;
+      line-width: 14;
     }
     [feature = 'highway_secondary'] {
-      line-width: 13;
+      line-width: 12;
     }
     [feature = 'highway_tertiary'] {
-      line-width: 11;
+      line-width: 10;
     }
     [feature = 'highway_residential'] {
-      line-width: 9;
+      line-width: 8;
     }
     [feature = 'highway_unclassified'] {
-      line-width: 9;
+      line-width: 8;
     }
     [feature = 'highway_living_street'] {
-      line-width: 9;
+      line-width: 8;
     }
     [feature = 'highway_road'] {
     }
     [feature = 'highway_service'],
     [feature = 'highway_pedestrian'] {
-      line-width: 7;
+      line-width: 6;
     }
     [feature = 'highway_steps'] {
-      line-width: 6;
+      line-width: 5;
     }
     [feature = 'highway_cycleway'],
     [feature = 'highway_footway'] {
@@ -91,7 +91,7 @@
     [feature = 'highway_path'],
     [feature = 'highway_track'],
     [feature = 'highway_bridleway'] {
-      line-width: 5;
+      line-width: 4;
     }
     [feature = 'highway_raceway'] {
     }
