@@ -18,11 +18,11 @@
     [feature = 'railway_construction'],
     [feature = 'railway_INT-preserved-ssy'],
     [feature = 'railway_INT-spur-siding-yard'] {
-      line-width: 7;
+      line-width: 6;
     }
     [feature = 'railway_narrow_gauge'],
     [feature = 'railway_light_rail'] {
-      line-width: 5.5;
+      line-width: 5;
     }
     [feature = 'railway_miniature'] {
       line-width: 4;
@@ -120,12 +120,12 @@
       line-width: 0;
       ::line {
         line-color: @road-color;
-        line-width: 6;
+        line-width: 5;
       }
       ::dash {
         line-color: @road-outline-color;
         line-width: 4;
-        line-dasharray: 6, 6;
+        line-dasharray: 8, 8;
       }
     }
     [feature = 'railway_narrow_gauge'],
@@ -138,7 +138,7 @@
       ::dash {
         line-color: @road-outline-color;
         line-width: 3;
-        line-dasharray: 4, 4;
+        line-dasharray: 6, 6;
       }
     }
     [feature = 'railway_miniature'] {
@@ -150,7 +150,7 @@
       ::dash {
         line-color: @road-outline-color;
         line-width: 2;
-        line-dasharray: 3, 3;
+        line-dasharray: 4, 4;
       }
     }
 
