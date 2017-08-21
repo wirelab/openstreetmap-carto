@@ -36,11 +36,11 @@ _parts:
     extent: "-20037508,-20037508,20037508,20037508"
 
 Stylesheet:
-  - shapefiles.mss
   - rr-admin.mss
   - rr-buildings.mss
   - rr-landcover.mss
   - rr-roads.mss
+  - rr-shapefiles.mss
   - rr-style.mss
   - rr-water.mss
   #- fonts.mss
