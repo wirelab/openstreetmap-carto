@@ -14,5 +14,5 @@
 }
 
 #bridge {
-  polygon-fill: #d00;
+  polygon-fill: @building-major-color;
 }

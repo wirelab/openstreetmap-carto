@@ -9,6 +9,8 @@
 @building-major-color: #0C2328;
 @playground-color: #2D1717;
 
+@admin-border-color: #@road-color;
+
 @road-color: #061214;
 @road-outline-color: #102E33;
 
