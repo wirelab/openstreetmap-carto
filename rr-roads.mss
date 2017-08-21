@@ -160,7 +160,7 @@
       }
       ::dash {
         line-opacity: .5;
-        line-dasharray: 11, 2;
+        line-dasharray: 12, 4;
       }
     }
 
