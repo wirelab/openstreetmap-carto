@@ -1,5 +1,5 @@
 .water-lines {
-  line-width: 20;
+  line-width: 4;
   line-color: #164A51;
   line-clip: false;
   line-cap: round;
