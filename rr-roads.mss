@@ -20,6 +20,10 @@
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 7;
     }
+    [feature = 'railway_INT-spur-siding-yard'] {
+      line-opacity: .5;
+    }
+
     [feature = 'railway_narrow_gauge'],
     [feature = 'railway_light_rail'] {
       line-width: 6;
@@ -128,6 +132,15 @@
         line-dasharray: 8, 8;
       }
     }
+    [feature = 'railway_INT-spur-siding-yard'] {
+      ::line {
+        line-opacity: .5;
+      }
+      ::dash {
+        line-opacity: .5;
+      }
+    }
+
     [feature = 'railway_narrow_gauge'],
     [feature = 'railway_light_rail'] {
       line-width: 0;
