@@ -94,7 +94,7 @@
   polygon-pattern-file: url('rr-patterns/reserve.png');
   polygon-pattern-alignment: global;
   line-width: 2;
-  line-color: #073A30;
+  line-color: #0E2823;
 }
 
 .line_barriers,
