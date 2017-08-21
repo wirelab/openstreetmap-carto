@@ -319,6 +319,12 @@
 .bridges-fill[zoom >= 14], 
 .tunnels-casing[zoom >= 14], 
 .tunnels-fill[zoom >= 14] {
-  line-color: red;
-  line-cap: square;
+  ::case {
+    line-color: #d00;
+    line-cap: square;
+  }
+  ::fill {
+    line-color: #00d;
+    line-cap: square;
+  }
 }
