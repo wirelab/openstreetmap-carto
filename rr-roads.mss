@@ -1,5 +1,5 @@
-@road-casing: #666666;
-@road-fill: #333333;
+@road-casing: #555555;
+@road-fill: #111111;
 
 .water-lines {
   line-width: 4;
