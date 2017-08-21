@@ -14,9 +14,9 @@
 
 @road-color: #061214;
 @road-outline-color: #102E33;
-@road-platform-color: #061214;
-@squares-color: #061214;
-@squares-outline-color: #061214;
+@road-platform-color: #040C0C;
+@squares-color: #040C0C;
+@squares-outline-color: #102E33;
 
 Map {
   background-color: @water-color;
