@@ -316,15 +316,18 @@
 }
 
 .bridges-casing[zoom >= 14], 
+.tunnels-casing[zoom >= 14] {
+//  ::case {
+//    line-color: #d00;
+//    line-cap: square;
+//  }
+}
 .bridges-fill[zoom >= 14], 
-.tunnels-casing[zoom >= 14], 
 .tunnels-fill[zoom >= 14] {
-  ::case {
-    line-color: #d00;
-    line-cap: square;
-  }
   ::fill {
-    line-color: #00d;
-    line-cap: square;
+    line-color: #d00;
+    line-width: 4;
+    line-cap: round;
+    line-dasharray: 10, 4;
   }
 }
