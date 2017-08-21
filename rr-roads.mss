@@ -22,6 +22,8 @@
       line-cap: square;
     }
     [feature = 'railway_disused'],
+    [feature = 'railway_construction'],
+    [feature = 'railway_INT-preserved-ssy'],
     [feature = 'railway_INT-spur-siding-yard'] {
       line-width: 0;
     }
@@ -146,6 +148,7 @@
         line-opacity: .25;
       }
     }
+    [feature = 'railway_construction'],
     [feature = 'railway_INT-spur-siding-yard'] {
       ::line {
         line-opacity: .5;
