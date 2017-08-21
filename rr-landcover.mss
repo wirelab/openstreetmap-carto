@@ -1,4 +1,12 @@
 #landcover {
+  [feature = 'landuse_military'] {
+    polygon-fill: #d00;
+    polygon-opacity: .3;
+    line-width: 1;
+    line-color: #d00;
+    line-opacity: .5;
+  }
+
   [feature = 'landuse_residential'],
   [feature = 'landuse_industrial'],
   [feature = 'landuse_commercial'],
