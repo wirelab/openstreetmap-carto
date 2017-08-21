@@ -9,10 +9,11 @@
 @building-major-color: #0C2328;
 @playground-color: #2D1717;
 
-@admin-border-color: #@road-color;
+@admin-border-color: #061214;
 
 @road-color: #061214;
 @road-outline-color: #102E33;
+@road-platform-color: #061214;
 
 Map {
   background-color: @water-color;
