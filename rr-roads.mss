@@ -223,7 +223,7 @@
     [feature = 'highway_steps'] {
       line-width: 0;
       ::line {
-        line-color: #1D5760;
+        line-color: @road-casing;
         line-width: 5;
       }
       ::dash {
@@ -234,7 +234,7 @@
     }
     [feature = 'highway_cycleway'],
     [feature = 'highway_footway'] {
-      line-color: #1D5760;
+      line-color: @road-fill;
       line-width: 3;
     }
     [feature = 'highway_track'],
