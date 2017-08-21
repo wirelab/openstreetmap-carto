@@ -1,12 +1,14 @@
-#landcover {
-  [feature = 'landuse_military'] {
+#landuse-overlay {
+  [feature = 'military'] {
     polygon-fill: #d00;
     polygon-opacity: .3;
     line-width: 1;
     line-color: #d00;
     line-opacity: .5;
   }
+}
 
+#landcover {
   [feature = 'landuse_residential'],
   [feature = 'landuse_industrial'],
   [feature = 'landuse_commercial'],
@@ -19,6 +21,7 @@
   }
 
   [feature = 'natural_scrub'],
+  [feature = 'natural_heath'],
   [feature = 'natural_wood'],
   [feature = 'landuse_forest'] {
     polygon-fill: #112421;
