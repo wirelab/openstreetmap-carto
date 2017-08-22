@@ -16,7 +16,7 @@
 @road-outline-color: lighten(#102E33, 10%);
 @road-platform-color: lighten(#071516, 5%);
 @squares-color: #071516;
-@squares-outline-color: #102E33;
+@squares-outline-color: lighten(#102E33, 10%);
 
 Map {
   background-color: @water-color;
