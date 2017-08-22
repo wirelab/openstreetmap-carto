@@ -13,7 +13,7 @@
 @admin-border-color: lighten(#061214, 5%);
 
 @road-color: #061214;
-@road-outline-color: lightn(#102E33, 10%);
+@road-outline-color: lighten(#102E33, 10%);
 @road-platform-color: lighten(#071516, 5%);
 @squares-color: #071516;
 @squares-outline-color: #102E33;
