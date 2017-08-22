@@ -1,5 +1,5 @@
-@land-color: lighten(#071819, 5%);
-@water-color: lighten(#092533, 5%);
+@land-color: #071819;
+@water-color: #092533;
 @residential-color: lighten(#0A2124, 5%);
 @grass-color: lighten(#0C211C, 5%); //#112B1F;
 @forest-color: lighten(#0A1D1A, 5%); //#0E231B;
@@ -12,11 +12,11 @@
 
 @admin-border-color: lighten(#061214, 5%);
 
-@road-color: lighten(#061214, 5%);
-@road-outline-color: lighten(#102E33, 5%);
-@road-platform-color: lighten(#071516, 5%);
-@squares-color: lighten(#071516, 5%);
-@squares-outline-color: lighten(#102E33, 5%);
+@road-color: #061214;
+@road-outline-color: #102E33;
+@road-platform-color: #071516;
+@squares-color: #071516;
+@squares-outline-color: #102E33;
 
 Map {
   background-color: @water-color;
