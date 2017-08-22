@@ -12,7 +12,7 @@
   [feature = 'natural_bare_rock'] {
     polygon-fill: @rock-color;
     line-width: 1;
-    line-color: lighten(@rock-color, 5%);
+    line-color: lighten(@rock-color, 10%);
   }
   [feature = 'landuse_residential'],
   [feature = 'landuse_industrial'],
@@ -20,7 +20,7 @@
   [feature = 'landuse_retail'] {
     polygon-fill: @residential-color;
     line-width: 1;
-    line-color: lighten(@residential-color, 5%);
+    line-color: lighten(@residential-color, 10%);
   }
 
   [feature = 'natural_scrub'],
@@ -30,7 +30,7 @@
   [feature = 'landuse_orchard'] {
     polygon-fill: @forest-color;
     line-width: 1;
-    line-color: lighten(@forest-color, 5%);
+    line-color: lighten(@forest-color, 10%);
   }
 
   [feature = 'leisure_sports_centre'],
@@ -47,14 +47,14 @@
   [feature = 'leisure_playground'] {
     polygon-fill: @beach-color;
     line-width: 1;
-    line-color: lighten(@beach-color, 5%);  
+    line-color: lighten(@beach-color, 10%);  
   }
 
   
   [feature = 'leisure_pitch'] {
     polygon-fill: @forest-color;
     line-width: 1;
-    line-color: lighten(@grass-color, 5%);    
+    line-color: lighten(@grass-color, 10%);    
   }
 
   [feature = 'natural_grassland'],
@@ -68,7 +68,7 @@
   [feature = 'leisure_garden'] {
     polygon-fill: @grass-color;
     line-width: 1;
-    line-color: lighten(@grass-color, 5%);
+    line-color: lighten(@grass-color, 10%);
   }
   [feature = 'landuse_cemetery'],
   [feature = 'amenity_grave_yard'] {
@@ -76,7 +76,7 @@
     polygon-pattern-file: url('rr-patterns/grave_yard.svg');
     polygon-pattern-alignment: global;
     line-width: 1;
-    line-color: lighten(@forest-color, 5%);
+    line-color: lighten(@forest-color, 10%);
   }
 
   [feature = 'amenity_parking'],

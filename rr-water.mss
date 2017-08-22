@@ -2,7 +2,7 @@
   ::casing {
     line-width: 4;
     line-color: @water-color;
-    line-color: lighten(@water-color, 5%);
+    line-color: lighten(@water-color, 10%);
     line-clip: false;
     line-cap: round;
     line-join: round;
@@ -28,5 +28,5 @@
 #water-areas {
   polygon-fill: @water-color;
   line-width: 1;
-  line-color: lighten(@water-color, 5%);
+  line-color: lighten(@water-color, 10%);
 }

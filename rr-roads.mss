@@ -102,7 +102,7 @@
         polygon-fill: @road-platform-color;
       }
       ::dash {
-        line-color: lighten(@road-platform-color, 5%);
+        line-color: lighten(@road-platform-color, 10%);
         line-width: 21;
         line-dasharray: 7, 7;
       }
@@ -285,7 +285,7 @@
     [feature = 'railway_platform'] {
       line-width: 0;
       ::line {
-        line-color: lighten(@road-platform-color, 5%);
+        line-color: lighten(@road-platform-color, 10%);
         line-width: 7;
       }
       ::dash {
@@ -306,7 +306,7 @@
   [feature = 'highway_platform'],
   [feature = 'railway_platform'] {
     line-clip: false;
-    line-color: lighten(@road-platform-color, 5%);
+    line-color: lighten(@road-platform-color, 10%);
     line-width: 1;
   }
 }

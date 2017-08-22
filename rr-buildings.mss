@@ -1,7 +1,7 @@
 #buildings {
   polygon-fill: @building-color;
   line-clip: false;
-  line-color: lighten(@building-color, 5%);
+  line-color: lighten(@building-color, 10%);
   line-width: 1;
 }
 
@@ -9,7 +9,7 @@
   polygon-clip: false;
   polygon-fill: @building-major-color;
   line-clip: false;
-  line-color: lighten(@building-major-color, 5%);
+  line-color: lighten(@building-major-color, 10%);
   line-width: 1;
 }
 
