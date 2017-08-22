@@ -86,7 +86,7 @@
     polygon-opacity: .1;
     line-width: 1;
     line-color: #fff;
-    line-opacity: .2;    
+    line-opacity: .1;    
   }
 }
 
