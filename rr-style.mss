@@ -1,6 +1,6 @@
 @land-color: #071819;
 @water-color: #092533;
-@residential-color: lighten(#0A2124, 5%);
+@residential-color: #0A2124, 5%;
 @grass-color: lighten(#0C211C, 5%); //#112B1F;
 @forest-color: lighten(#0A1D1A, 5%); //#0E231B;
 @rock-color: lighten(#141C1D, 5%); //#222222;
